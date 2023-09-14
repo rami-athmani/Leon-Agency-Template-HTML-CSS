@@ -281,6 +281,7 @@
 /* about section */
 .about {
   padding: 20px;
+  margin-bottom: 80px;
 }
 .about .about-content {
   display: flex;
@@ -362,3 +363,63 @@
   transform: translate(-50%,0);
  }
  }
+ /* contact section */
+ .contact {
+  padding: 20px;
+  background-color: var(--second-color);
+  margin-top: 45px;
+ }
+ .contact .contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  text-align: center;
+ }
+ .contact .contact-content h1 {
+  color: var(--third-color);
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 35px; 
+  word-spacing: -3px;
+  letter-spacing: -1px;
+  margin: 0;
+ }
+ .contact .contact-content h1 a {
+  text-decoration: none;
+  color: var(--main-color);
+ } 
+ .contact .contact-social {
+  display: flex;
+  align-items: center;
+  text-align: center; 
+  margin-bottom: 60px;
+ }
+ .contact .contact-social i {
+  color: var(--third-color);
+  font-size: 18px;
+  padding: 4px;
+ }
+ .contact .contact-social p {
+  padding: 8px; 
+  word-spacing: -2px;
+  letter-spacing: -1px;
+ }  
+@media (max-width: 776px) {
+ .contact .contact-content h1 {
+  font-size: 24px;
+ }
+}
+/* footer-section */
+.footer {
+  background-color: var(--third-color);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.footer span {
+  font-weight: bold;
+  color: var(--main-color);
+}
